@@ -27,6 +27,12 @@ function appendData(data, parent) {
 
     div.append(image, heading);
 
+    div.onclick = function () {
+      let x = [element];
+      localStorage.setItem("setPhoto", JSON.stringify(x));
+      window.location.href = "/src/html/photo.html";
+    };
+
     parent.append(div);
   });
 }

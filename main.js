@@ -7,7 +7,7 @@
 
 import navbar from "./src/components/navBar.js";
 import logoImg from "./src/svg/svgImg.js";
-import home from "./src/components/home.js";
+import { home } from "./src/components/home.js";
 import { makeApiCall, appendData } from "./src/script/async.js";
 
 document.querySelector("#head-nav").innerHTML = navbar();
@@ -27,3 +27,15 @@ console.log("Res", res);
 
 appendData(res, image_data);
 appendData(res, image_data1);
+
+//Search Bar
+let input = document.getElementById("Searchbar");
+
+input.addEventListener("keypress", (e) => {
+  if (e.key === "Enter") {
+    let input_value = document.getElementById("Searchbar").value;
+
+    localStorage.setItem("search_term", input_value);
+    window.location.href = "./src/html/navSearch.html";
+  }
+});

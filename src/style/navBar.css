@@ -166,3 +166,21 @@ body {
   text-align: center;
   color: white;
 }
+
+#photos {
+  display: grid;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.home04 div p {
+  background-color: #328d67;
+  height: 60px;
+  padding-top: 16px;
+  text-align: center;
+  color: white;
+}
+
+.home04 div img {
+  width: 100%;
+}
