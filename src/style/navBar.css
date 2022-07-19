@@ -134,6 +134,7 @@ a {
   margin: 5%;
   border-radius: 4%;
   color: white;
+  cursor: pointer;
 }
 
 .home01 div p {
