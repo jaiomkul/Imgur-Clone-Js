@@ -8,7 +8,7 @@ document.querySelector("#homePage").innerHTML = home();
 let search_term = localStorage.getItem("search_term");
 
 let key = "IbQfsT5hSUQZzIi1vvRrSMZJ2Tbk8W6wd7lOEFIDR2Y";
-let url = `https://api.unsplash.com/search/photos?query=${search_term}&client_id=${key}`;
+let url = `https://api.unsplash.com/search/photos?per_page=100&query=${search_term}&client_id=${key}`;
 
 let search = document.querySelector(".home02");
 

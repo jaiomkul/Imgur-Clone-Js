@@ -63,7 +63,7 @@ export default function navSearch() {
           </div>
           <a
             class="EmeraldButton Button"
-            href="/emerald?source=getAdFreeButtonTopNav"
+            href="https://imgur.com/signin?redirect=%2F"
             >Go Ad-Free</a
           ><a
             class="Navbar-signin"

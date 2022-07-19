@@ -8,8 +8,7 @@ function home() {
 
   <!-- Home Page -->
   <div
-    class="home02 border-4 border-indigo-500/100 mt-4"
-  >
+    class="home02 border-4 border-indigo-500/100 mt-4 grid grid-cols-2 mx-[0px] sm:grid-cols-3 sm:mx-[0px] md:grid-cols-4 md:mx-[140px] lg:grid-cols-5">
   </div>
 </div>`;
 }

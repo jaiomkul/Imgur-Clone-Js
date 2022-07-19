@@ -63,7 +63,7 @@ export default function navbar() {
             </div>
             <a
               class="EmeraldButton Button"
-              href="/emerald?source=getAdFreeButtonTopNav"
+              href="https://imgur.com/signin?redirect=%2F
               >Go Ad-Free</a
             ><a
               class="Navbar-signin"
@@ -87,7 +87,7 @@ export default function navbar() {
           <div class="text-right">MORE TAGS +</div>
         </div>
         <div
-          class="home01 grid grid-cols-10 mx-[100px] mt-2"
+          class="home01 grid grid-cols-3 mx-[0px] sm:grid-cols-5 sm:mx-[0px] md:grid-cols-5 lg:grid-cols-10 md:mx-[100px] mt-2"
         >
         </div>
       </div>

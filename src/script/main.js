@@ -17,16 +17,19 @@ document.querySelector(".logoImg").innerHTML = logoImg();
 document.querySelector("#homePage").innerHTML = home();
 
 let key = "IbQfsT5hSUQZzIi1vvRrSMZJ2Tbk8W6wd7lOEFIDR2Y";
+//backup key = "CiUHdv8t1CZ0RdkGWvepkPXZAFaWvFZNgM7IyR5o0ME" //
 let url = `https://api.unsplash.com/photos/?client_id=${key}`;
+let urlMain = `https://api.unsplash.com/photos/random?count=100&client_id=${key}`;
 
-let image_data = document.querySelector(".home02");
-let image_data1 = document.querySelector(".home01");
+let image_data = document.querySelector(".home01");
+let image_data1 = document.querySelector(".home02");
 
 let res = await makeApiCall(url);
+let resMain = await makeApiCall(urlMain);
 console.log("Res", res);
 
 appendData(res, image_data);
-appendData(res, image_data1);
+appendData(resMain, image_data1);
 
 //Search Bar
 let input = document.getElementById("Searchbar");
