@@ -35,7 +35,7 @@ export default function navbar() {
           <div class="ProfileNavbar ProfileNavbar-loggedOut flex">
             <div class="NavbarNotifications NavbarNotifications-navbar">
               <div class="ProfileNavbar-item uScaleTransition">
-                <a title="Top Comments" href="/leaderboard"
+                <a title="Top Comments" href="https://imgur.com/signin?redirect=%2F"
                   ><svg
                     width="32"
                     height="32"
