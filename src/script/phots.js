@@ -1,8 +1,10 @@
 import { home1 } from "../components/home.js";
 import navSearch from "../components/navSearch.js";
 import { makeApiCall, appendData } from "./async.js";
+import logoImg from "../svg/svgImg.js";
 
 document.getElementById("searchView").innerHTML = navSearch();
+document.querySelector(".logoImg").innerHTML = logoImg();
 
 document.getElementById("photos").innerHTML = home1();
 

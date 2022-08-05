@@ -1,8 +1,10 @@
 import navSearch from "../components/navSearch.js";
 import { home } from "../components/home.js";
 import { makeApiCall, appendData } from "./async.js";
+import logoImg from "../svg/svgImg.js";
 
 document.querySelector("#searchBar").innerHTML = navSearch();
+document.querySelector(".logoImg").innerHTML = logoImg();
 document.querySelector("#homePage").innerHTML = home();
 
 let search_term = localStorage.getItem("search_term");

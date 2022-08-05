@@ -3,7 +3,7 @@ export default function navSearch() {
   <div>
     <nav class="p-4 flex">
       <div class="flex">
-        <a class="logoImg" href=""></a>
+        <a class="logoImg" href="../../index.html"></a>
         <a class="Button ml-5" href="">
           <img
             class="mr-[13px]"
@@ -35,7 +35,7 @@ export default function navSearch() {
         <div class="ProfileNavbar ProfileNavbar-loggedOut flex">
           <div class="NavbarNotifications NavbarNotifications-navbar">
             <div class="ProfileNavbar-item uScaleTransition">
-              <a title="Top Comments" href="/leaderboard"
+              <a title="Top Comments" href="https://imgur.com/register?redirect=%2F"
                 ><svg
                   width="32"
                   height="32"
@@ -67,7 +67,7 @@ export default function navSearch() {
             >Go Ad-Free</a
           ><a
             class="Navbar-signin"
-            href="https://imgur.com/signin?redirect=%2F"
+            href="https://imgur.com/register?redirect=%2F"
             >Sign in</a
           ><a
             class="ButtonLink Button Navbar-signup"

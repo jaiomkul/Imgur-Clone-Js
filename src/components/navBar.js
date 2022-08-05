@@ -3,7 +3,7 @@ export default function navbar() {
   <div>
       <nav class="p-4 flex">
         <div class="flex">
-          <a class="logoImg" href=""></a>
+          <a class="logoImg" href="../../index.html"></a>
           <a class="Button ml-5" href="">
             <img
               class="mr-[13px]"
